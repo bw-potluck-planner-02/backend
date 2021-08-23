@@ -1,6 +1,6 @@
 # POTLUCK BACKEND :)
 
-##  https://potluck-planner-03.herokuapp.com/
+##  https://potluck-planner-2.herokuapp.com/
 
 
 
