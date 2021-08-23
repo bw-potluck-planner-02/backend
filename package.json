@@ -10,10 +10,10 @@
     "migrate": "knex migrate:latest",
     "rollback": "knex migrate:rollback",
     "seed": "knex seed:run",
-    "migrateh": "heroku run knex migrate:latest -a potluck-planner-02",
-    "rollbackh": "heroku run knex migrate:rollback -a potluck-planner-02",
-    "databaseh": "heroku pg:psql -a potluck-planner-02",
-    "seedh": "heroku run knex seed:run -a potluck-planner-02",
+    "migrateh": "heroku run knex migrate:latest -a potluck-planner-2",
+    "rollbackh": "heroku run knex migrate:rollback -a potluck-planner-2",
+    "databaseh": "heroku pg:psql -a potluck-planner-2",
+    "seedh": "heroku run knex seed:run -a potluck-planner-2",
     "deploy": "git push heroku main"
   },
   "repository": {
