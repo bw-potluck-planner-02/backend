@@ -8,12 +8,12 @@ exports.seed = function(knex) {
           {
             potluck_id: '3',
             food_id: '2',
-            assigned_user: 3,
+            assigned_user: 7,
           },
           {
             potluck_id: '2',
             food_id: '5',
-            assigned_user: 2,
+            assigned_user: 4,
           },
           {
             potluck_id: '1',
@@ -22,7 +22,7 @@ exports.seed = function(knex) {
           {
             potluck_id: '3',
             food_id: '1',
-            assigned_user: 2,
+            assigned_user: 4,
           },
           {
             potluck_id: '3',

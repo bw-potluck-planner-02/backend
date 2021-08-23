@@ -1,3 +1,4 @@
+
 exports.seed = function(knex) {
     return knex('potlucks').del()
       .then(function () {
@@ -20,7 +21,7 @@ exports.seed = function(knex) {
           },
           {
             potluck_name: 'MM..FOOD',
-            organizer: '2',
+            organizer: '5',
             potluck_description: 'got more cheese than doritos, cheetos, or fritos',
             potluck_date: '2021/07/28',
             potluck_time: '07:30:00',
