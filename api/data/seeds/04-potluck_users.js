@@ -5,12 +5,12 @@ exports.seed = function(knex) {
         return knex('potluck_users').insert([
           {
             potluck_id: '2',
-            user_id: '4',
+            user_id: '3',
             attending: '1'
           },
           {
             potluck_id: '1',
-            user_id: '5',
+            user_id: '2',
             attending: '0'
           },
           {
@@ -25,22 +25,7 @@ exports.seed = function(knex) {
           },
           {
             potluck_id: '3',
-            user_id: '7',
-            attending: '1'
-          },
-          {
-            potluck_id: '3',
-            user_id: '8',
-            attending: '1'
-          },
-          {
-            potluck_id: '3',
-            user_id: '9',
-            attending: '1'
-          },
-          {
-            potluck_id: '3',
-            user_id: '10',
+            user_id: '1',
             attending: '1'
           },
         ]);

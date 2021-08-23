@@ -20,7 +20,7 @@ exports.seed = function(knex) {
           },
           {
             potluck_name: 'MM..FOOD',
-            organizer: '5',
+            organizer: '2',
             potluck_description: 'got more cheese than doritos, cheetos, or fritos',
             potluck_date: '2021/07/28',
             potluck_time: '07:30:00',
