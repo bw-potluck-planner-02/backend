@@ -372,7 +372,8 @@
 ```JSON
 {
     "potluck_id": 3,
-    "food_id": 2
+    "food_name": "string, is required",
+    "food_description": "string" 
 }
 ```
 </details>
